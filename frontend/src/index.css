@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #111;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+input, textarea {
+  outline: none;
+  caret-color: rgb(29, 185, 84);
+  color: #fff;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.ReactModalPortal {
+  position: relative;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Content {
+  box-sizing: border-box;
+}
